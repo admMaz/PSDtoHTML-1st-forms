@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD form template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="top">
+            <img class="logo" src="img/logo-top.png" alt="logo">
+        </div>
+        <!--wrap start-->
+        <div class="wrap">
+            <!--start div left-->
+            <div class="left">
+                <!--start div rejestration-->
+                <div id="rejestration">
+
+                    <h2>Register Form</h2>
+                    <div class="form-border">
+                        <div class="form-area">
+                            <form id="register">
+                                <div class="input-container">
+                                    <div class="img-square flex-center">
+                                        <img class="icon user" src="img/icon/user-icon.png">
+                                    </div>
+                                    <input class="Field" type="text" placeholder="Username" />
+                                </div>
+                                <div class="input-container">
+                                    <div class="img-square flex-center">
+                                        <img class="icon lock" src="img/icon/lock-icon.png">
+                                    </div>
+                                    <input class="Field" type="password" placeholder="Password" />
+                                </div>
+                                <div class="input-container">
+                                    <div class="img-square flex-center">
+                                        <img class="icon lock" src="img/icon/lock-icon.png">
+                                    </div>
+                                    <input class="Field" type="password" placeholder="Confirm password" />
+                                </div>
+                                <div class="input-container">
+                                    <div class="img-square flex-center">
+                                        <img class="icon evelope" src="img/icon/evelope-icon.png">
+                                    </div>
+                                    <input class="Field" type="text" placeholder="Email" />
+                                </div>
+                                <div class="input-container">
+                                    <div class="img-square flex-center">
+                                        <img class="icon location" src="img/icon/location-icon.png">
+                                    </div>
+
+                                    <select class="full-width">
+                                        <option value="no lacation">Your location</option>
+                                        <option value="London">London</option>
+                                        <option value="Paris">Paris</option>
+                                    </select>
+                                </div>
+                                <div class="input-check">
+                                    <input class="confirm-register" type="checkbox" />
+                                    <label class="confirm" for="confirm-register">I have read and accept the therm of
+                                        use.</label>
+
+                                </div>
+                                <div class="butt-area flex-center">
+                                    <button class="btn big" type="submit" form="register">Sign up</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--end div #rejestration-->
+
+                <!--start div #send-email-->
+                <div id="sending-email">
+                    <h2>Send e-mail</h2>
+                    <div class="form-border">
+                        <div class="form-area">
+                            <form id="send-email">
+                                <div class="input-container">
+                                    <div class="img-square flex-center">
+                                        <img class="icon user" src="img/icon/user-icon.png">
+                                    </div>
+                                    <input class="Field" type="text" placeholder="Username" />
+                                </div>
+                                <div class="input-container">
+                                    <div class="img-square flex-center">
+                                        <img class="icon evelope" src="img/icon/evelope-icon.png">
+                                    </div>
+                                    <input class="Field" type="text" placeholder="Email" />
+                                </div>
+                                <div class="input-container">
+                                    <textarea class="text" name="e-mail-text" id="email" cols="30" rows="10" placeholder="type your message here"></textarea>
+                                </div>
+                                <div class="input-check">
+
+                                    <input id="confirm-send" type="checkbox" />
+                                    <label class="confirm" for="confirm-send">Send copy to my e-mail</label>
+
+                                </div>
+                                <div class="butt-area flex-center">
+                                    <button class="btn big" type="submit" form="register">Send Email</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--end div #sendig-email-->
+            </div>
+            <!--left end-->
+
+            <!--start div right-->
+            <div class="right">
+
+                <!--start div #logIn-->
+                <div id="logIn">
+                    <h2>Sign In Form</h2>
+                    <div class="form-border">
+                        <div class="form-area">
+                            <form id="signIn">
+                                <div class="input-container">
+                                    <div class="img-square flex-center">
+                                        <img class="icon user" src="img/icon/user-icon.png">
+                                    </div>
+                                    <input class="Field" type="text" placeholder="Username" />
+                                </div>
+                                <div class="input-container">
+                                    <div class="img-square flex-center">
+                                        <img class="icon lock" src="img/icon/lock-icon.png">
+                                    </div>
+                                    <input class="Field" type="password" placeholder="Password" />
+                                </div>
+                                <div class="input-check">
+                                    <input id="confirm-signIn" type="checkbox" />
+                                    <label class="confirm" for="confirm-signIn">Remember me</label>
+                                    <button class="btn small" type="submit" form="register">Sign up</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--end div #logIn-->
+
+                <!--start div #recovering-->
+                <div id="recovering">
+                    <h2>Recover</h2>
+                    <div class="form-border">
+                        <div class="form-area">
+                            <form id="recover">
+                                <div class="input-container">
+                                    <div class="img-square flex-center">
+                                        <img class="icon user" src="img/icon/user-icon.png">
+                                    </div>
+                                    <input class="Field" type="text" placeholder="Username" />
+                                </div>
+
+                                <div class="input-container">
+                                    <div class="img-square flex-center">
+                                        <img class="icon phone" src="img/icon/phone-icon.png">
+                                    </div>
+                                    <input class="Field" type="number" placeholder="enter your nuber" />
+                                </div>
+
+                                <div class="input-check">
+                                    <button class="btn small" type="submit" form="recover">Send</button>
+                                    <button class="btn small disabled" type="submit" form="register">Done</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                    <!--end div #recovering-->
+
+                    <!--start div #subscribtion-->
+                    <div id="subscribtion">
+
+                        <h2>Subscribe Form</h2>
+                        <div class="form-border">
+                            <div class="form-area">
+                                <form id="subscribe">
+
+                                    <div class="input-container">
+                                        <div class="img-square flex-center">
+                                            <img class="icon evelope" src="img/icon/evelope-icon.png">
+                                        </div>
+                                        <input class="Field" type="text" placeholder="Email" />
+                                    </div>
+
+                                    <div class="input-check">
+                                        <button class="btn small" type="submit" form="subscribe">Subscribe</button>
+                                        <button class="btn small no" type="submit" form="subscribe">No thanx</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end div #subscribtion-->
+
+                    <div class="bott">
+                        <img class="logo" src="img/logo-top.png" alt="logo">
+                    </div>
+
+                </div>
+                <!-- end div right-->
+
+            </div>
+            <!--end div wrap-->
+
+
+        </div>
+</body>
+
+</html>
